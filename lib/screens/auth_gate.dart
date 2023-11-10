@@ -24,11 +24,11 @@ class AuthGate extends StatelessWidget {
               // PhoneAuthProvider(),
             ],
             headerBuilder: (context, constraints, shrinkOffset) {
-              return const  Padding(
-                padding: EdgeInsets.all(20),
+              return  Padding(
+                padding: const EdgeInsets.all(20),
                 child: AspectRatio(
                   aspectRatio: 1,
-                  child: Image(image: AssetImage('images/download.png'),)
+                  child: Image.asset("assets/images/logo.png")
                 ),
               );
             },
